@@ -36,18 +36,18 @@
 		"headings": {
 			"patterns": [{
 				"name": "markup.heading.hatena",
-				"match": "^(\\*{1,3}[^\\*]*)$\\n?"
+				"match": "^(\\*{1,3}[^\\*]*)$"
 			}]
 		},
 		"lists": {
 			"patterns": [
 				{
 					"name": "markup.list.numbered.hatena",
-					"match": "^(\\+*[^\\+]*)$\\n"
+					"match": "^(\\++[^\\+]*)$"
 				},
 				{
 					"name": "markup.list.unnumbered.hatena",
-					"match": "^(\\-*[^\\-]*)$\\n"
+					"match": "^(\\-+[^\\-]*)$"
 				}
 			]
 		}
