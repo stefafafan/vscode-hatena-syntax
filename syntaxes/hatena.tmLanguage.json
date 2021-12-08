@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.hatena",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(tex|contents|google|image|news|wikipedia|id|detail|large|question|title|f|plain|alt|isbn|asin)\\b"
 			}]
 		},
 		"strings": {
