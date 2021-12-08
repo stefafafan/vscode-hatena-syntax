@@ -9,7 +9,7 @@
 			"include": "#strings"
 		},
 		{
-			"include": "#heading"
+			"include": "#headings"
 		}
 	],
 	"repository": {
@@ -30,7 +30,7 @@
 				}
 			]
 		},
-		"heading": {
+		"headings": {
 			"patterns": [{
 				"name": "markup.heading.hatena",
 				"match": "^(\\*{1,3}[^\\*]*)$\\n?"
