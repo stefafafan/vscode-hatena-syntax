@@ -10,6 +10,9 @@
 		},
 		{
 			"include": "#headings"
+		},
+		{
+			"include": "#lists"
 		}
 	],
 	"repository": {
@@ -35,6 +38,18 @@
 				"name": "markup.heading.hatena",
 				"match": "^(\\*{1,3}[^\\*]*)$\\n?"
 			}]
+		},
+		"lists": {
+			"patterns": [
+				{
+					"name": "markup.list.numbered.hatena",
+					"match": "^(\\+*[^\\+]*)$\\n"
+				},
+				{
+					"name": "markup.list.unnumbered.hatena",
+					"match": "^(\\-*[^\\-]*)$\\n"
+				}
+			]
 		}
 	},
 	"scopeName": "source.hatena"
