@@ -13,6 +13,9 @@
 		},
 		{
 			"include": "#lists"
+		},
+		{
+			"include": "#quotes"
 		}
 	],
 	"repository": {
@@ -48,6 +51,25 @@
 				{
 					"name": "markup.list.unnumbered.hatena",
 					"match": "^(\\-+[^\\-]*)$"
+				}
+			]
+		},
+		"quotes": {
+			"patterns": [
+				{
+					"name": "markup.quote.hatena",
+					"begin": "^(>>)$",
+					"end": "^(<<)$"
+				},
+				{
+					"name": "markup.quote.pre.hatena",
+					"begin": "^(>\\|)$",
+					"end": "^(\\|<)$"
+				},
+				{
+					"name": "markup.quote.superpre.hatena",
+					"begin": "^(>\\|[a-z0-9]*\\|)$",
+					"end": "^(\\|[a-z0-9]*\\|<)$"
 				}
 			]
 		}
