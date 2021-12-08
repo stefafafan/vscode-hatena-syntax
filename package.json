@@ -1,0 +1,25 @@
+{
+    "name": "hatena-syntax",
+    "displayName": "Hatena Syntax",
+    "description": "Syntax Highlighting for the Hatena Language.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "hatena",
+            "aliases": ["Hatena", "hatena"],
+            "extensions": [".hatena"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "hatena",
+            "scopeName": "source.hatena",
+            "path": "./syntaxes/hatena.tmLanguage.json"
+        }]
+    }
+}
