@@ -20,10 +20,16 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.hatena",
-				"match": "\\b(tex|contents|google|image|news|wikipedia|id|detail|large|question|title|f|plain|alt|isbn|asin)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.other.id.hatena",
+					"match": "\\b(id:[a-zA-Z0-9_]+:?(detail|image)?:?(large)?)\\b"
+				},
+				{
+					"name": "keyword.control.hatena",
+					"match": "\\b(tex|contents|google|image|news|wikipedia|detail|question|title|f|plain|alt|isbn|asin)\\b"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.hatena",
