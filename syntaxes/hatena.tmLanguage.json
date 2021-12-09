@@ -23,11 +23,23 @@
 			"patterns": [
 				{
 					"name": "keyword.other.id.hatena",
-					"match": "\\b(id:[a-zA-Z0-9_]+:?(detail|image)?:?(large)?)\\b"
+					"match": "\\b(id:[a-zA-Z][a-zA-Z0-9_-]{1,30}[a-zA-Z0-9]:?(detail|image)?:?(large)?)\\b"
+				},
+				{
+					"name": "keyword.other.question.hatena",
+					"match": "\\b(question:[0-9]+:?(title|detail|image)?)\\b"
+				},
+				{
+					"name": "keyword.other.fotolife.hatena",
+					"match": "\\b(f:id:[a-zA-Z][a-zA-Z0-9_-]{1,30}[a-zA-Z0-9]:[a-zA-Z0-9]+:(image|plain)?:?((title|alt)=.*)?:?((title|alt)=.*)?)$"
+				},
+				{
+					"name": "keyword.other.product.hatena",
+					"match": "\\b((isbn|asin):[0-9]+:?(title|detail|image)?)\\b"
 				},
 				{
 					"name": "keyword.control.hatena",
-					"match": "\\b(tex|contents|google|image|news|wikipedia|detail|question|title|f|plain|alt|isbn|asin)\\b"
+					"match": "\\b(tex|contents|google|image|news|wikipedia|detail|title|plain|alt)\\b"
 				}
 			]
 		},
