@@ -74,17 +74,47 @@
 				{
 					"name": "markup.quote.hatena",
 					"begin": "^(>>)$",
-					"end": "^(<<)$"
+					"end": "^(<<)$",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.quote.begin.markdown"
+						}
+					},
+					"endCaptures": {
+						"1": {
+							"name": "punctuation.definition.quote.begin.markdown"
+						}
+					}
 				},
 				{
 					"name": "markup.quote.pre.hatena",
 					"begin": "^(>\\|)$",
-					"end": "^(\\|<)$"
+					"end": "^(\\|<)$",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.quote.begin.markdown"
+						}
+					},
+					"endCaptures": {
+						"1": {
+							"name": "punctuation.definition.quote.begin.markdown"
+						}
+					}
 				},
 				{
 					"name": "markup.quote.superpre.hatena",
 					"begin": "^(>\\|[a-z0-9]*\\|)$",
-					"end": "^(\\|[a-z0-9]*\\|<)$"
+					"end": "^(\\|[a-z0-9]*\\|<)$",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.quote.begin.markdown"
+						}
+					},
+					"endCaptures": {
+						"1": {
+							"name": "punctuation.definition.quote.begin.markdown"
+						}
+					}
 				}
 			]
 		}
