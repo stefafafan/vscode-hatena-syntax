@@ -1,6 +1,6 @@
 # vscode-hatena-syntax
 
-VSCode Extension that enables syntax highlighting for the Hatena markup language.
+An unofficial VS Code Extension that enables syntax highlighting for the Hatena markup language.
 See here about the Hatena language: https://help.hatenablog.com/entry/text-hatena-list
 
 ## Features
