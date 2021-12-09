@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.0.3] - 2021-12-09
+### Changed
+- Updates to README
+
 ## [0.0.2] - 2021-12-09
 ### Added
 - Embedded HTML Support
