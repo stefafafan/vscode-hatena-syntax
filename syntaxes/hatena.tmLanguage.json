@@ -36,10 +36,6 @@
 				{
 					"name": "keyword.other.product.hatena",
 					"match": "\\b((isbn|asin):[0-9]+:?(title|detail|image)?)\\b"
-				},
-				{
-					"name": "keyword.control.hatena",
-					"match": "\\b(tex|contents|google|image|news|wikipedia|detail|title|plain|alt)\\b"
 				}
 			]
 		},
