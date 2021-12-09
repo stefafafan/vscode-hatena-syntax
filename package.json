@@ -1,5 +1,6 @@
 {
     "name": "hatena-syntax",
+    "publisher": "stefafafan",
     "displayName": "Hatena Language Syntax Highlighting",
     "description": "(Unofficial) Syntax Highlighting for the Hatena Markup Language.",
     "version": "0.0.1",
