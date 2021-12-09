@@ -3,6 +3,10 @@
 An unofficial VS Code Extension that enables syntax highlighting for the Hatena markup language.
 See here about the Hatena language: https://help.hatenablog.com/entry/text-hatena-list
 
+Files with `.hatena` file extension will automatically be detected.
+
+![Sample Screenshot](sample.png)
+
 ## Features
 
 This extension currently supports,
@@ -21,6 +25,9 @@ TODO:
 - some other stuff that is written here: https://help.hatenablog.com/entry/text-hatena-list
 
 ## Release Notes
+
+### 0.0.3
+- Update README
 
 ### 0.0.2
 - Added embedded HTML support
