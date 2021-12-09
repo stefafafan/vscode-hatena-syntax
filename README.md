@@ -13,14 +13,18 @@ This extension currently supports,
 - question:* format
 - fotolife format
 - isbn/asin format
+- Embedded HTML
 
 TODO:
 - Tables
 - Quotes with embedded source code
-- Embedded HTML
 - some other stuff that is written here: https://help.hatenablog.com/entry/text-hatena-list
 
 ## Release Notes
+
+### 0.0.2
+- Added embedded HTML support
+- Add license files
 
 ### 0.0.1
 
