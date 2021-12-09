@@ -1,14 +1,22 @@
 {
     "name": "hatena-syntax",
-    "displayName": "Hatena Syntax",
-    "description": "Syntax Highlighting for the Hatena Language.",
+    "displayName": "Hatena Language Syntax Highlighting",
+    "description": "(Unofficial) Syntax Highlighting for the Hatena Markup Language.",
     "version": "0.0.1",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.62.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "keywords": [
+        "hatena",
+        "markup",
+        "syntax",
+        "highlighting"
+    ],
+    "homepage": "https://github.com/stefafafan/vscode-hatena-syntax",
     "contributes": {
         "languages": [{
             "id": "hatena",
